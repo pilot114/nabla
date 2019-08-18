@@ -1,1 +1,8 @@
-open: handlerName
+commands:
+  open:
+    handler: WindowManager
+store:
+  env:
+    # which
+    BROWSER: /usr/bin/google-chrome
+    EDITOR: /snap/bin/subl
